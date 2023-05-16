@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF80BE5429CE372000FBFBA2 /* EmotionSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BE5329CE372000FBFBA2 /* EmotionSelect.swift */; };
+		EF80BE5629CE666600FBFBA2 /* OptionBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BE5529CE666600FBFBA2 /* OptionBlockView.swift */; };
+		EF80BE5829CE769900FBFBA2 /* FeelingSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BE5729CE769900FBFBA2 /* FeelingSelect.swift */; };
+		EF80BE6229CF9F0900FBFBA2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BE6129CF9F0900FBFBA2 /* CoreDataStack.swift */; };
+		EF80BE6529CFF6F100FBFBA2 /* ChartDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BE6429CFF6F100FBFBA2 /* ChartDemo.swift */; };
+		EF80BEA629D005B600FBFBA2 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BEA529D005B600FBFBA2 /* ChartView.swift */; };
+		EFAFFD1029C1546E00075F21 /* emotionalRegulation Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EFAFFD0F29C1546E00075F21 /* emotionalRegulation Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EFAFFD1529C1546E00075F21 /* emotionalRegulationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFFD1429C1546E00075F21 /* emotionalRegulationApp.swift */; };
+		EFAFFD1729C1546E00075F21 /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFFD1629C1546E00075F21 /* SelectView.swift */; };
+		EFAFFD1929C1546F00075F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAFFD1829C1546F00075F21 /* Assets.xcassets */; };
+		EFAFFD1C29C1546F00075F21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAFFD1B29C1546F00075F21 /* Preview Assets.xcassets */; };
+		EFAFFD2629C1547000075F21 /* emotionalRegulation_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFFD2529C1547000075F21 /* emotionalRegulation_Watch_AppTests.swift */; };
+		EFAFFD3029C1547000075F21 /* emotionalRegulation_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFFD2F29C1547000075F21 /* emotionalRegulation_Watch_AppUITests.swift */; };
+		EFAFFD3229C1547000075F21 /* emotionalRegulation_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFFD3129C1547000075F21 /* emotionalRegulation_Watch_AppUITestsLaunchTests.swift */; };
+		EFB9793A29D5E80D00E70413 /* EmotionCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB9793929D5E80C00E70413 /* EmotionCategories.swift */; };
+		EFF125A529D0111B00DA5904 /* EmotionDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFF125A329D0111B00DA5904 /* EmotionDatabase.xcdatamodeld */; };
+		EFF125A729D0B25800DA5904 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF125A629D0B25800DA5904 /* ContentView.swift */; };
+		EFF125A929D0C54500DA5904 /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF125A829D0C54500DA5904 /* Colours.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAFFD1129C1546E00075F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAFFD0329C1546D00075F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAFFD0E29C1546E00075F21;
+			remoteInfo = "emotionalRegulation Watch App";
+		};
+		EFAFFD2229C1547000075F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAFFD0329C1546D00075F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAFFD0E29C1546E00075F21;
+			remoteInfo = "emotionalRegulation Watch App";
+		};
+		EFAFFD2C29C1547000075F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAFFD0329C1546D00075F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAFFD0E29C1546E00075F21;
+			remoteInfo = "emotionalRegulation Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFAFFD3829C1547000075F21 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EFAFFD1029C1546E00075F21 /* emotionalRegulation Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF80BE5329CE372000FBFBA2 /* EmotionSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSelect.swift; sourceTree = "<group>"; };
+		EF80BE5529CE666600FBFBA2 /* OptionBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionBlockView.swift; sourceTree = "<group>"; };
+		EF80BE5729CE769900FBFBA2 /* FeelingSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingSelect.swift; sourceTree = "<group>"; };
+		EF80BE6129CF9F0900FBFBA2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EF80BE6429CFF6F100FBFBA2 /* ChartDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDemo.swift; sourceTree = "<group>"; };
+		EF80BEA529D005B600FBFBA2 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		EFAFFD0929C1546E00075F21 /* emotionalRegulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emotionalRegulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFD0F29C1546E00075F21 /* emotionalRegulation Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emotionalRegulation Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFD1429C1546E00075F21 /* emotionalRegulationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalRegulationApp.swift; sourceTree = "<group>"; };
+		EFAFFD1629C1546E00075F21 /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		EFAFFD1829C1546F00075F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAFFD1B29C1546F00075F21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFAFFD2129C1547000075F21 /* emotionalRegulation Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emotionalRegulation Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFD2529C1547000075F21 /* emotionalRegulation_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalRegulation_Watch_AppTests.swift; sourceTree = "<group>"; };
+		EFAFFD2B29C1547000075F21 /* emotionalRegulation Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emotionalRegulation Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAFFD2F29C1547000075F21 /* emotionalRegulation_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalRegulation_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		EFAFFD3129C1547000075F21 /* emotionalRegulation_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotionalRegulation_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFB9793929D5E80C00E70413 /* EmotionCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionCategories.swift; sourceTree = "<group>"; };
+		EFF125A429D0111B00DA5904 /* EmotionDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmotionDatabase.xcdatamodel; sourceTree = "<group>"; };
+		EFF125A629D0B25800DA5904 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFF125A829D0C54500DA5904 /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAFFD0C29C1546E00075F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD1E29C1547000075F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD2829C1547000075F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAFFD0229C1546D00075F21 = {
+			isa = PBXGroup;
+			children = (
+				EFF125A829D0C54500DA5904 /* Colours.xcassets */,
+				EFAFFD1329C1546E00075F21 /* emotionalRegulation Watch App */,
+				EFAFFD2429C1547000075F21 /* emotionalRegulation Watch AppTests */,
+				EFAFFD2E29C1547000075F21 /* emotionalRegulation Watch AppUITests */,
+				EFAFFD0A29C1546E00075F21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAFFD0A29C1546E00075F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFFD0929C1546E00075F21 /* emotionalRegulation.app */,
+				EFAFFD0F29C1546E00075F21 /* emotionalRegulation Watch App.app */,
+				EFAFFD2129C1547000075F21 /* emotionalRegulation Watch AppTests.xctest */,
+				EFAFFD2B29C1547000075F21 /* emotionalRegulation Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAFFD1329C1546E00075F21 /* emotionalRegulation Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				EF80BE5729CE769900FBFBA2 /* FeelingSelect.swift */,
+				EFAFFD1429C1546E00075F21 /* emotionalRegulationApp.swift */,
+				EF80BE6429CFF6F100FBFBA2 /* ChartDemo.swift */,
+				EFAFFD1629C1546E00075F21 /* SelectView.swift */,
+				EF80BE5529CE666600FBFBA2 /* OptionBlockView.swift */,
+				EF80BE5329CE372000FBFBA2 /* EmotionSelect.swift */,
+				EFAFFD1829C1546F00075F21 /* Assets.xcassets */,
+				EFAFFD1A29C1546F00075F21 /* Preview Content */,
+				EF80BEA529D005B600FBFBA2 /* ChartView.swift */,
+				EF80BE6129CF9F0900FBFBA2 /* CoreDataStack.swift */,
+				EFF125A329D0111B00DA5904 /* EmotionDatabase.xcdatamodeld */,
+				EFF125A629D0B25800DA5904 /* ContentView.swift */,
+				EFB9793929D5E80C00E70413 /* EmotionCategories.swift */,
+			);
+			path = "emotionalRegulation Watch App";
+			sourceTree = "<group>";
+		};
+		EFAFFD1A29C1546F00075F21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFFD1B29C1546F00075F21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFAFFD2429C1547000075F21 /* emotionalRegulation Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFFD2529C1547000075F21 /* emotionalRegulation_Watch_AppTests.swift */,
+			);
+			path = "emotionalRegulation Watch AppTests";
+			sourceTree = "<group>";
+		};
+		EFAFFD2E29C1547000075F21 /* emotionalRegulation Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAFFD2F29C1547000075F21 /* emotionalRegulation_Watch_AppUITests.swift */,
+				EFAFFD3129C1547000075F21 /* emotionalRegulation_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "emotionalRegulation Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAFFD0829C1546E00075F21 /* emotionalRegulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFD3929C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation" */;
+			buildPhases = (
+				EFAFFD0729C1546E00075F21 /* Resources */,
+				EFAFFD3829C1547000075F21 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAFFD1229C1546E00075F21 /* PBXTargetDependency */,
+			);
+			name = emotionalRegulation;
+			productName = emotionalRegulation;
+			productReference = EFAFFD0929C1546E00075F21 /* emotionalRegulation.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EFAFFD0E29C1546E00075F21 /* emotionalRegulation Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFD3529C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation Watch App" */;
+			buildPhases = (
+				EFAFFD0B29C1546E00075F21 /* Sources */,
+				EFAFFD0C29C1546E00075F21 /* Frameworks */,
+				EFAFFD0D29C1546E00075F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "emotionalRegulation Watch App";
+			productName = "emotionalRegulation Watch App";
+			productReference = EFAFFD0F29C1546E00075F21 /* emotionalRegulation Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAFFD2029C1547000075F21 /* emotionalRegulation Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFD3C29C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation Watch AppTests" */;
+			buildPhases = (
+				EFAFFD1D29C1547000075F21 /* Sources */,
+				EFAFFD1E29C1547000075F21 /* Frameworks */,
+				EFAFFD1F29C1547000075F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAFFD2329C1547000075F21 /* PBXTargetDependency */,
+			);
+			name = "emotionalRegulation Watch AppTests";
+			productName = "emotionalRegulation Watch AppTests";
+			productReference = EFAFFD2129C1547000075F21 /* emotionalRegulation Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAFFD2A29C1547000075F21 /* emotionalRegulation Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAFFD3F29C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation Watch AppUITests" */;
+			buildPhases = (
+				EFAFFD2729C1547000075F21 /* Sources */,
+				EFAFFD2829C1547000075F21 /* Frameworks */,
+				EFAFFD2929C1547000075F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAFFD2D29C1547000075F21 /* PBXTargetDependency */,
+			);
+			name = "emotionalRegulation Watch AppUITests";
+			productName = "emotionalRegulation Watch AppUITests";
+			productReference = EFAFFD2B29C1547000075F21 /* emotionalRegulation Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAFFD0329C1546D00075F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EFAFFD0829C1546E00075F21 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EFAFFD0E29C1546E00075F21 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EFAFFD2029C1547000075F21 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFAFFD0E29C1546E00075F21;
+					};
+					EFAFFD2A29C1547000075F21 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFAFFD0E29C1546E00075F21;
+					};
+				};
+			};
+			buildConfigurationList = EFAFFD0629C1546D00075F21 /* Build configuration list for PBXProject "emotionalRegulation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAFFD0229C1546D00075F21;
+			productRefGroup = EFAFFD0A29C1546E00075F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAFFD0829C1546E00075F21 /* emotionalRegulation */,
+				EFAFFD0E29C1546E00075F21 /* emotionalRegulation Watch App */,
+				EFAFFD2029C1547000075F21 /* emotionalRegulation Watch AppTests */,
+				EFAFFD2A29C1547000075F21 /* emotionalRegulation Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAFFD0729C1546E00075F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD0D29C1546E00075F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAFFD1C29C1546F00075F21 /* Preview Assets.xcassets in Resources */,
+				EFF125A929D0C54500DA5904 /* Colours.xcassets in Resources */,
+				EFAFFD1929C1546F00075F21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD1F29C1547000075F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD2929C1547000075F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAFFD0B29C1546E00075F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80BE6229CF9F0900FBFBA2 /* CoreDataStack.swift in Sources */,
+				EF80BE6529CFF6F100FBFBA2 /* ChartDemo.swift in Sources */,
+				EFAFFD1729C1546E00075F21 /* SelectView.swift in Sources */,
+				EFAFFD1529C1546E00075F21 /* emotionalRegulationApp.swift in Sources */,
+				EF80BE5829CE769900FBFBA2 /* FeelingSelect.swift in Sources */,
+				EF80BEA629D005B600FBFBA2 /* ChartView.swift in Sources */,
+				EFB9793A29D5E80D00E70413 /* EmotionCategories.swift in Sources */,
+				EFF125A729D0B25800DA5904 /* ContentView.swift in Sources */,
+				EFF125A529D0111B00DA5904 /* EmotionDatabase.xcdatamodeld in Sources */,
+				EF80BE5429CE372000FBFBA2 /* EmotionSelect.swift in Sources */,
+				EF80BE5629CE666600FBFBA2 /* OptionBlockView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD1D29C1547000075F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAFFD2629C1547000075F21 /* emotionalRegulation_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAFFD2729C1547000075F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAFFD3029C1547000075F21 /* emotionalRegulation_Watch_AppUITests.swift in Sources */,
+				EFAFFD3229C1547000075F21 /* emotionalRegulation_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAFFD1229C1546E00075F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAFFD0E29C1546E00075F21 /* emotionalRegulation Watch App */;
+			targetProxy = EFAFFD1129C1546E00075F21 /* PBXContainerItemProxy */;
+		};
+		EFAFFD2329C1547000075F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAFFD0E29C1546E00075F21 /* emotionalRegulation Watch App */;
+			targetProxy = EFAFFD2229C1547000075F21 /* PBXContainerItemProxy */;
+		};
+		EFAFFD2D29C1547000075F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAFFD0E29C1546E00075F21 /* emotionalRegulation Watch App */;
+			targetProxy = EFAFFD2C29C1547000075F21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFAFFD3329C1547000075F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		EFAFFD3429C1547000075F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		EFAFFD3629C1547000075F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"emotionalRegulation Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W8XXGC67JM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = emotionalRegulation;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasaySaeed.emotionalRegulation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		EFAFFD3729C1547000075F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"emotionalRegulation Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W8XXGC67JM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = emotionalRegulation;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasaySaeed.emotionalRegulation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		EFAFFD3A29C1547000075F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8XXGC67JM;
+				INFOPLIST_KEY_CFBundleDisplayName = emotionalRegulation;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasaySaeed.emotionalRegulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+			};
+			name = Debug;
+		};
+		EFAFFD3B29C1547000075F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8XXGC67JM;
+				INFOPLIST_KEY_CFBundleDisplayName = emotionalRegulation;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasaySaeed.emotionalRegulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAFFD3D29C1547000075F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WasaySaeed.emotionalRegulation-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emotionalRegulation Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/emotionalRegulation Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		EFAFFD3E29C1547000075F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WasaySaeed.emotionalRegulation-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emotionalRegulation Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/emotionalRegulation Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		EFAFFD4029C1547000075F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WasaySaeed.emotionalRegulation-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "emotionalRegulation Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		EFAFFD4129C1547000075F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WasaySaeed.emotionalRegulation-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "emotionalRegulation Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAFFD0629C1546D00075F21 /* Build configuration list for PBXProject "emotionalRegulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFD3329C1547000075F21 /* Debug */,
+				EFAFFD3429C1547000075F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFD3529C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFD3629C1547000075F21 /* Debug */,
+				EFAFFD3729C1547000075F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFD3929C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFD3A29C1547000075F21 /* Debug */,
+				EFAFFD3B29C1547000075F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFD3C29C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFD3D29C1547000075F21 /* Debug */,
+				EFAFFD3E29C1547000075F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAFFD3F29C1547000075F21 /* Build configuration list for PBXNativeTarget "emotionalRegulation Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAFFD4029C1547000075F21 /* Debug */,
+				EFAFFD4129C1547000075F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFF125A329D0111B00DA5904 /* EmotionDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFF125A429D0111B00DA5904 /* EmotionDatabase.xcdatamodel */,
+			);
+			currentVersion = EFF125A429D0111B00DA5904 /* EmotionDatabase.xcdatamodel */;
+			path = EmotionDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFAFFD0329C1546D00075F21 /* Project object */;
+}
